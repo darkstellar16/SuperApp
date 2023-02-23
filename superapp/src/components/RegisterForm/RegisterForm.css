@@ -1,0 +1,146 @@
+.appContainer {
+    position: absolute;
+    width: 210px;
+    height: 60px;
+    left: 1135px;
+    top: 70px;
+    color: #72DB73;
+    font-weight: 400;
+    font-size: 35px;
+    font-style: normal;
+}
+
+.create {
+    position: absolute;
+    width: 292px;
+    height: 27px;
+    left: 1115px;
+    top: 135px;
+    color: white;
+    font-weight: 400;
+    font-size: larger;
+}
+
+.email {
+    position: absolute;
+    width: 74.18px;
+    height: 27.82px;
+    left: 1140px;
+    top: 190px;
+    color: white;
+    font-weight: 400;
+    font-size: larger;
+}
+
+.line {
+    position: absolute;
+    width: 0px;
+    height: 25px;
+    left: 1210px;
+    top: 190px;
+    border: solid;
+    border-color: #72DB73;
+}
+
+.google {
+    position: absolute;
+    width: 95.82px;
+    height: 29.88px;
+    left: 1245px;
+    top: 190px;
+    color: white;
+    font-size: large;
+    font-weight: 400;
+}
+
+.nameField {
+    position: absolute;
+    width: 355px;
+    height: 45px;
+    left: 1050px;
+    top: 270px;
+    border-color: #292929;
+    font-size: large;
+    background: #292929;
+    border-radius: 3.82px;
+    color:white;
+}
+.userField {
+    position: absolute;
+    width: 355px;
+    height: 45px;
+    left: 1050px;
+    top: 340px;
+    border-color: #292929;
+    font-size: large;
+    background: #292929;
+    border-radius: 3.82px;
+    color:white;
+}
+.emailField {
+    position: absolute;
+    width: 355px;
+    height: 45px;
+    left: 1050px;
+    top: 410px;
+    border-color: #292929;
+    font-size: large;
+    background: #292929;
+    text-align:start;
+    border-radius: 3.82px;
+    color:white;
+}
+.numField {
+    position: absolute;
+    width: 355px;
+    height: 45px;
+    left: 1050px;
+    top: 480px;
+    border-color: #292929;
+    font-size: large;
+    background: #292929;
+    border-radius: 3.82px;
+    color:white;
+}
+.errorF1{
+    height:12px;
+    width:150px;
+    color:red;
+    position:absolute;
+    left:1052px;
+    top:320px;
+    font-size: 10px;
+}
+.errorF2{
+    height:12px;
+    width:150px;
+    color:red;
+    position:absolute;
+    left:1052px;
+    top:390px;
+    font-size: 10px;
+}
+.errorF3{
+    height:12px;
+    width:150px;
+    color:red;
+    position:absolute;
+    left:1052px;
+    top:460px;
+    font-size: 10px;
+}
+.errorF4{
+    height:12px;
+    width:150px;
+    color:red;
+    position:absolute;
+    left:1052px;
+    top:530px;
+    font-size: 10px;
+}
+.btn{
+    position:absolute;
+    left:1100px;
+    top:600px;
+
+}

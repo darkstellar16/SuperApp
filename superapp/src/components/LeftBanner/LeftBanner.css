@@ -1,0 +1,44 @@
+.left {
+    height: 1118px;
+    width: 800px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    display: flex;
+    background-image: url(../../asset/image.png);
+}
+
+.account {
+    height: 26px;
+    width: 337px;
+    left: 55px;
+    top: 81px;
+    border-radius: nullpx;
+    position: absolute;
+    color: white;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.login {
+    position: absolute;
+    width: 135px;
+    height: 38px;
+    left: 439px;
+    top: 75px;
+    border-radius: 33px;
+    background-color: #72DB73;
+    border-color: #72DB73;
+    color: white;
+}
+
+.information {
+    position: absolute;
+    width: 695px;
+    height: 143px;
+    left: 62px;
+    top: 853px;
+    color: white;
+    font-weight: 900;
+    font-size: 55px;
+}
