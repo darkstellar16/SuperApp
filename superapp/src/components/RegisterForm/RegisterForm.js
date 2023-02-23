@@ -9,19 +9,24 @@ function Form() {
     const [email, setEmail] = useState('')
     const [number, setNumber] = useState('')
     const [error, setError] = useState(false)
+    const [checked, setChecked] = useState(false)
 
     const handleMessage = (e) => {
         e.preventDefault()
 
         if (name.length == 0 || user.length == 0 || email.length == 0 || number.length == 0) {
             setError(true)
-        }
-        else{
-            alert("User Registered");
-        }
 
+        }
+        else {
+            if (error == false && checked == true) {
+                alert("You have registered successfully now you can enjoy the superapp");
+            }
+        }
     }
-
+    const handleChecked = () => {
+        setChecked(!checked)
+    }
 
     return (
         <>
@@ -56,10 +61,14 @@ function Form() {
                     {error && number.length <= 0 ?
                         <span className='errorF4'>This Field is required</span> : ""}
                 </div>
-
-                <button type="submit" className='btn'>SUBMIT</button>
-
+                <div className='check'>
+                    <input type="checkbox" className='box' value={checked} onChange={handleChecked} />
+                    <span className='message'>Share my registration data with super app</span>
+                </div>
+                <button type="submit" className='btn'>SIGN-UP</button>
             </form>
+            <p id='first'>By clicking on Sign up. you agree to Superapp <span>Terms and <br></br>Conditions of Use</span></p>
+            <p id='second'>To learn more about how Superapp collects, uses, shares and<br></br> protects your personal data please head Superapp <span>Privacy <br></br>Policy</span></p>
         </>
     )
 }

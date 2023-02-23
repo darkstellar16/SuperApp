@@ -63,8 +63,9 @@
     font-size: large;
     background: #292929;
     border-radius: 3.82px;
-    color:white;
+    color: white;
 }
+
 .userField {
     position: absolute;
     width: 355px;
@@ -75,8 +76,9 @@
     font-size: large;
     background: #292929;
     border-radius: 3.82px;
-    color:white;
+    color: white;
 }
+
 .emailField {
     position: absolute;
     width: 355px;
@@ -86,10 +88,11 @@
     border-color: #292929;
     font-size: large;
     background: #292929;
-    text-align:start;
+    text-align: start;
     border-radius: 3.82px;
-    color:white;
+    color: white;
 }
+
 .numField {
     position: absolute;
     width: 355px;
@@ -100,47 +103,106 @@
     font-size: large;
     background: #292929;
     border-radius: 3.82px;
-    color:white;
+    color: white;
 }
-.errorF1{
-    height:12px;
-    width:150px;
-    color:red;
-    position:absolute;
-    left:1052px;
-    top:320px;
+
+.errorF1 {
+    height: 12px;
+    width: 150px;
+    color: red;
+    position: absolute;
+    left: 1052px;
+    top: 320px;
     font-size: 10px;
 }
-.errorF2{
-    height:12px;
-    width:150px;
-    color:red;
-    position:absolute;
-    left:1052px;
-    top:390px;
+
+.errorF2 {
+    height: 12px;
+    width: 150px;
+    color: red;
+    position: absolute;
+    left: 1052px;
+    top: 390px;
     font-size: 10px;
 }
-.errorF3{
-    height:12px;
-    width:150px;
-    color:red;
-    position:absolute;
-    left:1052px;
-    top:460px;
+
+.errorF3 {
+    height: 12px;
+    width: 150px;
+    color: red;
+    position: absolute;
+    left: 1052px;
+    top: 460px;
     font-size: 10px;
 }
-.errorF4{
-    height:12px;
-    width:150px;
-    color:red;
-    position:absolute;
-    left:1052px;
-    top:530px;
+
+.errorF4 {
+    height: 12px;
+    width: 150px;
+    color: red;
+    position: absolute;
+    left: 1052px;
+    top: 530px;
     font-size: 10px;
+}
+
+.btn {
+    position: absolute;
+    left: 1100px;
+    top: 600px;
+}
+
+.box {
+    position: absolute;
+    left: -40px;
+    top: 0px;
+    height: 15px;
+    width: 15px;
+}
+
+.check {
+    position: absolute;
+    width: 355px;
+    height: 20px;
+    left: 1090px;
+    top: 552px;
+    font-size: smaller;
+    border-radius: 3.82px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    font-weight: 400;
 }
 .btn{
-    position:absolute;
-    left:1100px;
-    top:600px;
+    position: absolute;
+    width: 375px;
+    height: 45px;
+    left: 1045px;
+    top: 630px;
+    border-color:black;
+    font-size: large;
+    background: #72DB73;
+    border-radius: 28px;
+    color: white;
 
+    
+}
+#first{
+    position: absolute;
+    top: 680px;
+    left: 1045px;
+    color: #7C7C7C;
+}
+span{
+    color: #72DB73;
+}
+.message{
+    color: #7C7C7C;
+}
+
+#second{
+    position: absolute;
+    top: 730px;
+    left: 1045px;
+    color: #7C7C7C;
 }
