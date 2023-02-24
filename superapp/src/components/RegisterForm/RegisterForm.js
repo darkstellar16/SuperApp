@@ -13,16 +13,15 @@ function Form() {
 
     const handleMessage = (e) => {
         e.preventDefault()
-
-        if (name.length == 0 || user.length == 0 || email.length == 0 || number.length == 0) {
+        if (name.length === 0 || user.length === 0 || email.length == 0 || number.length == 0) {
             setError(true)
-
         }
         else {
-            if (error == false && checked == true) {
+            setError(false)
+            if ( checked === true) {
                 alert("You have registered successfully now you can enjoy the superapp");
             }
-        }
+        }        
     }
     const handleChecked = () => {
         setChecked(!checked)
