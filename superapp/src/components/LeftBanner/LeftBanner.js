@@ -3,7 +3,7 @@ import  './LeftBanner.css'
 
 
 
-function banner(){
+function Banner(){
     return(
         <>
         <div className='left'>
@@ -16,4 +16,4 @@ function banner(){
         </>
     )
 }
-export default banner
+export default Banner
