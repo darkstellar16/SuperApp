@@ -18,10 +18,10 @@ function Form() {
         }
         else {
             setError(false)
-            if ( checked === true) {
+            if (checked === true) {
                 alert("You have registered successfully now you can enjoy the superapp");
             }
-        }        
+        }
     }
     const handleChecked = () => {
         setChecked(!checked)
@@ -71,6 +71,4 @@ function Form() {
         </>
     )
 }
-
-
 export default Form

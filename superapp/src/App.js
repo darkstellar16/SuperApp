@@ -1,12 +1,19 @@
 import React from 'react';
-import Form from './components/RegisterForm/RegisterForm.js'
-import Banner from './components/LeftBanner/LeftBanner.js'
+import Register from './pages/Register/Register';
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 function App() {
-  return(
+  return (
     <div>
-      <Form/>
-      <Banner/>
+      <BrowserRouter>
+
+        <Routes>
+          <Route path='register_route' element={<Register />}></Route>
+          <Route path='selectCategory_route' element={<SelectCategory />} ></Route>
+
+        </Routes>
+
+      </BrowserRouter>
     </div>
   )
 }

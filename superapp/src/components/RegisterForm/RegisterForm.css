@@ -173,34 +173,38 @@
     flex-direction: row;
     font-weight: 400;
 }
-.btn{
+
+.btn {
     position: absolute;
     width: 375px;
     height: 45px;
     left: 1045px;
     top: 630px;
-    border-color:black;
+    border-color: black;
     font-size: large;
     background: #72DB73;
     border-radius: 28px;
     color: white;
 
-    
+
 }
-#first{
+
+#first {
     position: absolute;
     top: 680px;
     left: 1045px;
     color: #7C7C7C;
 }
-span{
+
+span {
     color: #72DB73;
 }
-.message{
+
+.message {
     color: #7C7C7C;
 }
 
-#second{
+#second {
     position: absolute;
     top: 730px;
     left: 1045px;
